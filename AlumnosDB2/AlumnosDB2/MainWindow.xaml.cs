@@ -29,7 +29,7 @@ namespace AlumnosDB2
         {
             InitializeComponent();
             con = new OleDbConnection();
-            con.ConnectionString = "Provider=Microsoft.Jet.Oledb.4.0;Data Source0" + AppDomain.CurrentDomain.BaseDirectory + "\\AlumnosBD.mdb";
+            con.ConnectionString = "Provider=Microsoft.Jet.Oledb.4.0;Data Source0" + AppDomain.CurrentDomain.BaseDirectory + "\\AlumnosBD.mdb"; 
 
         }
 
